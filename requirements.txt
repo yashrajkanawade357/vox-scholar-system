@@ -6,12 +6,10 @@
 # ==============================================================================
 
 # -- VOX SERVICE SPECS --
-# Enforce PyTorch CPU-only installation to avoid multi-gigabyte CUDA downloads
---extra-index-url https://download.pytorch.org/whl/cpu
-
-torch==2.5.1
-fastapi==0.115.0
-uvicorn[standard]==0.32.0
+# Allow default indexes so cloud runners don't error out on conflicting overrides
+torch>=2.0.0
+fastapi>=0.115.0
+uvicorn>=0.30.0
 python-multipart==0.0.12
 chromadb==0.5.23
 sentence-transformers==3.3.1
