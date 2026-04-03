@@ -1,5 +1,7 @@
 # VOX-Scholar Unified System
 
+![CI Status](https://github.com/yashrajkanawade357/vox-scholar-system/actions/workflows/ci.yml/badge.svg)
+
 This is the unified mono-repository combining the anti-vishing audio service (`vox_service`) with the legal compliance application frontend (`scholar_ui`).
 
 ### Structure

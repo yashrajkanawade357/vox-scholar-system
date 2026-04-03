@@ -1,0 +1,51 @@
+# Environments
+.env
+
+# Python byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# C extensions
+*.so
+
+# Packages
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Project specific
+chroma_db/
+gate_log.txt
+dummy_scam.wav
+tmp_stt_*.wav
+tmp_stt_*.mp3
+tmp_stt_*.m4a
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
