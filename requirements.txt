@@ -1,0 +1,27 @@
+# ==============================================================================
+# VOX-SCHOLAR UNIFIED SYSTEM
+# Combines:
+# 1. VOX Service (FastAPI audio processing & RAG backend)
+# 2. Scholar UI (Streamlit frontend, SafeBrowsing Scanner, LLM Orchestration)
+# ==============================================================================
+
+# -- VOX SERVICE SPECS --
+# Enforce PyTorch CPU-only installation to avoid multi-gigabyte CUDA downloads
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.5.1
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+chromadb==0.5.23
+sentence-transformers==3.3.1
+openai-whisper==20240930
+PyMuPDF==1.25.1
+requests==2.32.3
+
+# -- SCHOLAR UI & CORE SPECS --
+streamlit>=1.32.0
+python-dotenv>=1.0.1
+ollama>=0.1.7
+# LangGraph architecture dependencies (to be used by langgraph_brain.py)
+langgraph>=0.0.30

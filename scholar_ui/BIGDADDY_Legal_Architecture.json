@@ -1,0 +1,422 @@
+[
+  {
+    "Parameter_ID": "ITA_SEC_66C",
+    "Legal_Source": "Information Technology Act, 2000",
+    "Section_Number": "Section 66C",
+    "Definition": "Fraudulently or dishonestly making use of any other person's electronic signature, password, or any other unique identification feature. This directly covers identity theft in the digital domain — using someone else's login credentials, OTP, PIN, or digital identity to gain unauthorized access to accounts or systems.",
+    "Trigger_Keywords": ["OTP", "password", "PIN", "login credentials", "electronic signature", "account access", "identity stolen", "unauthorized login", "UPI PIN", "MPIN"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment up to 3 years and fine up to ₹1,00,000.",
+    "Fraud_Category": "Identity Theft"
+  },
+  {
+    "Parameter_ID": "ITA_SEC_66D",
+    "Legal_Source": "Information Technology Act, 2000",
+    "Section_Number": "Section 66D",
+    "Definition": "Cheating by personation using a computer resource or communication device — impersonating a bank, government body, official, or trusted entity via electronic means (phone, SMS, email, website, app) to deceive a victim and induce financial loss or delivery of information. Covers phishing websites, vishing calls, smishing SMS, fake bank apps, and all forms of digital impersonation fraud.",
+    "Trigger_Keywords": ["impersonation", "fake bank", "RBI official", "CBI call", "police notice", "your account blocked", "KYC update", "click here to verify", "pretending to be", "acting as official"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment up to 3 years and fine up to ₹1,00,000.",
+    "Fraud_Category": "Digital Cheating & Phishing / Identity Theft"
+  },
+  {
+    "Parameter_ID": "ITA_SEC_66",
+    "Legal_Source": "Information Technology Act, 2000",
+    "Section_Number": "Section 66",
+    "Definition": "Computer-related offences — whoever dishonestly or fraudulently does any act referred to in Section 43 (unauthorized access, data theft, introducing viruses, system damage, denial of service, manipulating systems to charge others). Covers hacking, unauthorized account access, malware attacks, and any fraudulent computer-based act that causes damage.",
+    "Trigger_Keywords": ["hacking", "unauthorized access", "malware", "account hacked", "virus", "ransomware", "data breach", "system compromised", "APK file", "remote access"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment up to 3 years or fine up to ₹5,00,000 or both.",
+    "Fraud_Category": "Digital Cheating / Hacking"
+  },
+  {
+    "Parameter_ID": "ITA_SEC_43",
+    "Legal_Source": "Information Technology Act, 2000",
+    "Section_Number": "Section 43",
+    "Definition": "Civil liability for damage to computer, computer system, or computer network without permission — covers unauthorized access, downloading/copying data, introducing contaminants or viruses, tampering with systems, disruption of service, and charging services to another person's account by manipulating systems. This is the civil (compensation) counterpart to Section 66 (criminal).",
+    "Trigger_Keywords": ["unauthorized access", "data copied", "account charged fraudulently", "system damaged", "service disrupted", "computer manipulated", "skimming device", "card cloning", "ATM tampered"],
+    "Risk_Level": "Medium",
+    "Penalty_Brief": "Liable to pay damages/compensation to the person affected (no upper cap on compensation amount).",
+    "Fraud_Category": "Digital Cheating / Financial Fraud"
+  },
+  {
+    "Parameter_ID": "ITA_SEC_43A",
+    "Legal_Source": "Information Technology Act, 2000",
+    "Section_Number": "Section 43A",
+    "Definition": "Liability of a body corporate (bank, fintech, NBFC, payment processor) for failing to implement reasonable security practices while handling sensitive personal data, resulting in wrongful loss to any person. Applicable when a regulated entity's security negligence enables fraud on a customer.",
+    "Trigger_Keywords": ["data breach", "bank negligence", "sensitive personal data", "security failure", "customer data leaked", "fintech breach", "KYC data stolen", "PAN Aadhaar leaked"],
+    "Risk_Level": "Medium",
+    "Penalty_Brief": "Body corporate liable to pay compensation to affected person; no upper cap stipulated in Act.",
+    "Fraud_Category": "Data Protection / Financial Fraud Enablement"
+  },
+  {
+    "Parameter_ID": "ITA_SEC_66B",
+    "Legal_Source": "Information Technology Act, 2000",
+    "Section_Number": "Section 66B",
+    "Definition": "Dishonestly receiving or retaining any stolen computer resource or communication device, knowing or having reason to believe it to be stolen. Covers possession of stolen SIM cards, cloned phones, hacked devices, or SIM swap-acquired phone numbers used to intercept OTPs.",
+    "Trigger_Keywords": ["stolen SIM", "cloned device", "received stolen phone", "SIM swap", "stolen number", "compromised device", "mule account", "fraudulent SIM"],
+    "Risk_Level": "Medium",
+    "Penalty_Brief": "Imprisonment up to 3 years or fine up to ₹1,00,000 or both.",
+    "Fraud_Category": "Identity Theft / SIM Fraud"
+  },
+  {
+    "Parameter_ID": "ITA_SEC_66F",
+    "Legal_Source": "Information Technology Act, 2000",
+    "Section_Number": "Section 66F",
+    "Definition": "Cyber terrorism — unauthorized access to computer resources to threaten the unity, integrity, security, or sovereignty of India; or to obtain restricted information likely to harm national interests; or denying access, introducing contaminants, or penetrating systems in ways likely to cause death, injury, or disruption of essential services. Also covers accessing restricted government/defence data.",
+    "Trigger_Keywords": ["cyber attack", "critical infrastructure", "national security", "government systems hacked", "power grid attack", "banking system attack", "coordinated hack", "terror threat"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment which may extend to life imprisonment.",
+    "Fraud_Category": "Cyber Terrorism"
+  },
+  {
+    "Parameter_ID": "ITA_SEC_72",
+    "Legal_Source": "Information Technology Act, 2000",
+    "Section_Number": "Section 72",
+    "Definition": "Breach of confidentiality and privacy — any person who, while exercising powers under the IT Act, has accessed electronic records, information, or correspondence without consent and discloses it to another person. Covers insider data leaks by bank employees, IT professionals, or government personnel who misuse their access to personal financial data.",
+    "Trigger_Keywords": ["data leaked by employee", "account details shared", "confidential information disclosed", "insider threat", "bank employee leaked", "personal data sold", "private data shared"],
+    "Risk_Level": "Medium",
+    "Penalty_Brief": "Imprisonment up to 2 years or fine up to ₹1,00,000 or both.",
+    "Fraud_Category": "Data Privacy Breach"
+  },
+  {
+    "Parameter_ID": "ITA_SEC_72A",
+    "Legal_Source": "Information Technology Act, 2000",
+    "Section_Number": "Section 72A",
+    "Definition": "Punishment for disclosure of information in breach of lawful contract — any person (including an intermediary) who, while providing services under a lawful contract, accesses personal information about another person and intentionally discloses it to cause wrongful loss or wrongful gain. Directly applicable to third-party data brokers, payment processors, or service providers who sell customer data to fraudsters.",
+    "Trigger_Keywords": ["data sold", "personal info disclosed", "breach of contract", "customer data shared", "intermediary leaked", "service provider fraud", "third party data breach"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment up to 3 years or fine up to ₹5,00,000 or both.",
+    "Fraud_Category": "Data Privacy Breach / Fraud Facilitation"
+  },
+  {
+    "Parameter_ID": "BNS_SEC_318",
+    "Legal_Source": "Bharatiya Nyaya Sanhita, 2023",
+    "Section_Number": "Section 318",
+    "Definition": "Cheating — deceiving any person fraudulently or dishonestly to induce them to deliver property, consent to retaining property, or do/omit any act they would not otherwise do, causing damage or harm to their body, mind, reputation, or property. A dishonest concealment of facts constitutes deception. This is the foundational offence covering all forms of online cheating, including investment scams, lottery fraud, advance fee fraud, fake job scams, and any deceptive online scheme causing financial harm.",
+    "Trigger_Keywords": ["prize won", "investment opportunity", "guaranteed returns", "job offer", "advance fee", "lottery claim", "claim your reward", "special offer", "money transfer required", "urgent payment"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment up to 3 years, or up to 5 years (if victim's interest was bound to be protected), or up to 7 years + fine (if property delivered/valuable security involved).",
+    "Fraud_Category": "Digital Cheating / Financial Fraud"
+  },
+  {
+    "Parameter_ID": "BNS_SEC_319",
+    "Legal_Source": "Bharatiya Nyaya Sanhita, 2023",
+    "Section_Number": "Section 319",
+    "Definition": "Cheating by personation — a person cheats by pretending to be some other person, or by knowingly substituting one person for another, or representing that he or any other person is someone they are not. Applies whether the person impersonated is real or imaginary. This directly covers all digital impersonation fraud: fake bank officials, fake government officers (CBI/ED/RBI), fake customer support agents, fake social media profiles, and Business Email Compromise (BEC) attacks.",
+    "Trigger_Keywords": ["bank official calling", "CBI notice", "RBI representative", "ED investigation", "customer care agent", "I am from your bank", "police officer", "account suspended", "government agent", "impersonating officer"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment up to 5 years or fine or both.",
+    "Fraud_Category": "Digital Cheating & Phishing / Identity Theft"
+  },
+  {
+    "Parameter_ID": "BNS_SEC_336",
+    "Legal_Source": "Bharatiya Nyaya Sanhita, 2023",
+    "Section_Number": "Section 336",
+    "Definition": "Forgery — making any false document or false electronic record (or part thereof) with intent to cause damage/injury, support a false claim/title, cause a person to part with property, enter into a contract, or commit fraud. Explicitly covers electronic records, affixing electronic signatures on forged records, and transmitting false electronic records. Directly applicable to creating fake bank SMS alerts, forged payment receipts, fake KYC documents, counterfeit financial instruments in digital form, and forged digital records.",
+    "Trigger_Keywords": ["fake SMS", "forged payment receipt", "fake bank confirmation", "counterfeit document", "false electronic record", "fake challan", "forged invoice", "fabricated screenshot", "fake transaction proof"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment up to 2 years or fine; up to 7 years + fine if forged for purpose of cheating; up to 3 years + fine if forged to harm reputation.",
+    "Fraud_Category": "Forgery of Electronic Records"
+  },
+  {
+    "Parameter_ID": "BNS_SEC_337",
+    "Legal_Source": "Bharatiya Nyaya Sanhita, 2023",
+    "Section_Number": "Section 337",
+    "Definition": "Forgery of record of Court or public register, including identity documents issued by Government (explicitly including Voter Identity Card and Aadhaar Card), registers kept by public servants, certificates made by public servants in official capacity, and documents maintained in electronic form as defined under the IT Act 2000. Directly targets forgery of Aadhaar, PAN, Voter ID, passports, and other government IDs used to commit KYC fraud, SIM swap fraud, and AEPS fraud.",
+    "Trigger_Keywords": ["fake Aadhaar", "forged PAN card", "fake Voter ID", "counterfeit government ID", "false KYC document", "forged certificate", "fake government letter", "Aadhaar cloned", "identity document forgery"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment up to 7 years and fine.",
+    "Fraud_Category": "Forgery of Electronic Records / Identity Document Fraud"
+  },
+  {
+    "Parameter_ID": "BNS_SEC_338",
+    "Legal_Source": "Bharatiya Nyaya Sanhita, 2023",
+    "Section_Number": "Section 338",
+    "Definition": "Forgery of valuable security or instrument — forging a document that purports to be a valuable security, a will, an authority to transfer any valuable security, to receive money or movable property, or an acquittance/receipt for delivery of money or property. Covers forgery of cheques, promissory notes, bills of exchange, digital payment authorities, forged UPI transaction confirmations, and any instrument that can cause financial harm.",
+    "Trigger_Keywords": ["forged cheque", "fake payment order", "counterfeit promissory note", "forged authority letter", "fake receipt", "forged bank instrument", "false payment confirmation", "fake financial instrument"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment for life or up to 10 years and fine.",
+    "Fraud_Category": "Forgery of Electronic Records / Financial Instrument Forgery"
+  },
+  {
+    "Parameter_ID": "BNS_SEC_340",
+    "Legal_Source": "Bharatiya Nyaya Sanhita, 2023",
+    "Section_Number": "Section 340",
+    "Definition": "Using as genuine a forged document or electronic record — whoever fraudulently or dishonestly uses as genuine any document or electronic record knowing it to be forged. This covers presenting forged KYC documents to banks, using fake screenshots of payment confirmations in fraud, presenting forged Aadhaar to acquire SIM cards, or using fabricated government orders. The offence carries the same punishment as the underlying forgery.",
+    "Trigger_Keywords": ["fake screenshot used", "presenting forged document", "using counterfeit ID", "false KYC submitted", "forged document presented", "fake confirmation shown", "fabricated proof used"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Same punishment as the underlying forgery offence (up to 7 or 10 years or life depending on document type).",
+    "Fraud_Category": "Forgery of Electronic Records / Financial Fraud"
+  },
+  {
+    "Parameter_ID": "BNS_SEC_344",
+    "Legal_Source": "Bharatiya Nyaya Sanhita, 2023",
+    "Section_Number": "Section 344",
+    "Definition": "Falsification of accounts — a clerk, officer, servant, or person acting in such capacity who willfully and with intent to defraud destroys, alters, mutilates, or falsifies any book, electronic record, paper, writing, valuable security, or account. Covers insider fraud by bank employees, fintech staff, or accountants who manipulate digital financial records to enable fraud.",
+    "Trigger_Keywords": ["account records altered", "electronic records tampered", "false entry made", "account books falsified", "insider fraud", "employee manipulated records", "digital ledger altered"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment up to 7 years or fine or both.",
+    "Fraud_Category": "Forgery of Electronic Records / Insider Financial Fraud"
+  },
+  {
+    "Parameter_ID": "BNS_SEC_204",
+    "Legal_Source": "Bharatiya Nyaya Sanhita, 2023",
+    "Section_Number": "Section 204",
+    "Definition": "Personating a public servant — pretending to hold a particular office as a public servant, knowing that one does not hold such office, or falsely personating another person holding such office, and in such assumed character doing or attempting to do any act. Covers all 'digital arrest' scams where fraudsters pose as CBI, ED, Police, RBI, Customs, Income Tax, or Interpol officers via video call, phone, or message to extort victims.",
+    "Trigger_Keywords": ["I am CBI officer", "ED investigation against you", "RBI official calling", "police arrest warrant", "customs notice", "income tax raid", "Interpol notice", "digital arrest", "FIR registered against you", "your account under investigation"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment not less than 6 months and up to 3 years and fine.",
+    "Fraud_Category": "Identity Theft / Digital Cheating"
+  },
+  {
+    "Parameter_ID": "BNS_SEC_111",
+    "Legal_Source": "Bharatiya Nyaya Sanhita, 2023",
+    "Section_Number": "Section 111",
+    "Definition": "Organised crime — any continuing unlawful activity conducted by a person or group using force/threat/intimidation, as part of a syndicate, for pecuniary benefit or gaining undue economic advantage. 'Economic offence' explicitly includes criminal breach of trust, forgery, counterfeiting, hawala transactions, mass-marketing fraud, schemes to defraud multiple persons, and any act to defraud a bank, financial institution, or organisation for monetary benefit. Covers large-scale cyber fraud syndicates.",
+    "Trigger_Keywords": ["mass fraud scheme", "fraud syndicate", "organised scam", "multiple victims defrauded", "hawala transfer", "bank defrauded scheme", "financial institution fraud", "syndicate operated", "criminal gang fraud", "systematic cyber fraud"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Minimum 5 years to life imprisonment + fine not less than ₹5,00,000; death or life + fine not less than ₹10,00,000 if death resulted.",
+    "Fraud_Category": "Organised Digital Fraud"
+  },
+  {
+    "Parameter_ID": "BNS_SEC_308_4",
+    "Legal_Source": "Bharatiya Nyaya Sanhita, 2023",
+    "Section_Number": "Section 308(4)",
+    "Definition": "Extortion — putting any person in fear of injury to induce them to deliver property or valuable security. Sub-section (4) specifically covers extortion by threat communicated through electronic or digital means. Covers ransomware attacks, sextortion, 'digital arrest' extortion demands, and all threats to pay or face consequences (fake arrest, exposure of private images, data deletion).",
+    "Trigger_Keywords": ["pay or face arrest", "transfer money or FIR", "your data will be exposed", "ransom demand", "pay to avoid", "threatening call", "extortion demand", "pay immediately or else", "naked photos will be shared", "threatening message"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment up to 7 years and fine; enhanced penalties if extortion committed on death threat.",
+    "Fraud_Category": "Digital Extortion / Ransomware"
+  },
+  {
+    "Parameter_ID": "BNS_SEC_351",
+    "Legal_Source": "Bharatiya Nyaya Sanhita, 2023",
+    "Section_Number": "Section 351",
+    "Definition": "Criminal intimidation — threatening any person with injury to their person, reputation, or property to cause alarm or compel them to act or omit doing something. Sub-section (4) specifically aggravates the offence when the threat is made through anonymous communication or when precautions are taken to conceal the identity of the sender — directly targeting anonymous threatening emails, messages, and calls used in online fraud.",
+    "Trigger_Keywords": ["anonymous threat", "threatening message", "your account will be closed", "you will be arrested", "harm will come", "threatening call", "concealed identity threat", "anonymous warning", "legal action threatened", "police case against you"],
+    "Risk_Level": "Medium",
+    "Penalty_Brief": "Imprisonment up to 2 years or fine or both; up to 7 years for death/grievous hurt threats; additional 2 years for anonymous threats.",
+    "Fraud_Category": "Digital Threat / Criminal Intimidation"
+  },
+  {
+    "Parameter_ID": "BNS_SEC_112_PETTY",
+    "Legal_Source": "Bharatiya Nyaya Sanhita, 2023",
+    "Section_Number": "Section 112",
+    "Definition": "Petty organised crime — any group/gang that commits acts including cheating as part of an organised pattern. Relevant to low-level digital fraud rings operating call centres, SIM fraud gangs, and small-scale UPI scam operators.",
+    "Trigger_Keywords": ["gang cheating", "call centre fraud", "organised small fraud", "multiple cheating cases", "fraud gang", "repeat fraud pattern", "gang operating scam"],
+    "Risk_Level": "Medium",
+    "Penalty_Brief": "Imprisonment not less than 1 year and up to 7 years, and fine.",
+    "Fraud_Category": "Organised Digital Cheating"
+  },
+  {
+    "Parameter_ID": "RBI_UPI_FRAUD_GUIDELINE",
+    "Legal_Source": "RBI BE(A)WARE Booklet / RBI Circular RBI/2024-25/105 (January 2025)",
+    "Section_Number": "RBI Consumer Protection Guidelines — UPI Fraud Provisions",
+    "Definition": "RBI-mandated guidelines defining UPI fraud typologies: (1) Fake 'Collect Request' fraud — fraudsters send UPI collect money requests to victims posing as buyers, causing victims to enter PIN while believing they receive money; (2) Fake QR Code fraud — fraudsters send QR codes that, when scanned, debit victim's account; (3) UPI PIN misuse — victims manipulated into entering PIN to 'receive' payment. Core RBI rule: Entering UPI PIN is an authorization to DEBIT; no PIN is ever required to receive money. Banks are mandated to use DoT's Mobile Number Revocation List (MNRL) to prevent fraud via recently recycled numbers.",
+    "Trigger_Keywords": ["UPI collect request", "scan to receive money", "enter PIN to get payment", "QR code payment", "UPI transfer request", "approve this payment", "confirm to receive", "click to accept money", "UPI link payment"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Regulated by RBI under Payment & Settlement Systems Act 2007; criminal provisions under BNS Section 318/319 and IT Act Section 66C/66D apply to perpetrators; banks liable for negligence under IT Act Section 43A.",
+    "Fraud_Category": "Financial Fraud via UPI / Banking Channels"
+  },
+  {
+    "Parameter_ID": "RBI_PHISHING_GUIDELINE",
+    "Legal_Source": "RBI BE(A)WARE Booklet / RBI Consumer Education Guidelines",
+    "Section_Number": "RBI Guidelines — Phishing & Vishing Provisions",
+    "Definition": "RBI identifies phishing as India's #1 digital fraud — creating replica websites of banks, RBI, or government portals and distributing links via SMS/WhatsApp/email with messages like 'Your account will be blocked — update KYC.' Once credentials are entered, they are captured by fraudsters. Vishing involves calls from spoofed bank/government numbers creating urgency. RBI's absolute rule: no bank official, RBI, or any legitimate financial institution ever asks for OTP, PIN, password, CVV, or account credentials via phone or email under any circumstances. Circular RBI/2024-25/105 mandates banks use MNRL to prevent fraud via telecom channels.",
+    "Trigger_Keywords": ["account will be blocked", "update KYC urgently", "your KYC expired", "OTP required", "share your PIN", "bank helpline calling", "verify your account", "click link to update", "account suspended", "immediate action required"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Governed under RBI Act / Payment & Settlement Systems Act 2007; criminal prosecution under IT Act Sections 66C/66D and BNS Section 318/319.",
+    "Fraud_Category": "Digital Cheating & Phishing"
+  },
+  {
+    "Parameter_ID": "RBI_SIM_SWAP_GUIDELINE",
+    "Legal_Source": "RBI BE(A)WARE Booklet / RBI Consumer Protection Guidelines",
+    "Section_Number": "RBI Guidelines — SIM Swap Fraud Provisions",
+    "Definition": "SIM Swap fraud — fraudsters obtain the victim's personal details (from social media, data breaches, or phishing), approach the victim's telecom operator posing as the customer, and fraudulently obtain a new SIM for the victim's mobile number. Once activated, the genuine SIM stops working and all OTPs and banking messages are diverted to the fraudster's SIM, enabling complete account takeover. Key indicator: sudden unexplained loss of mobile network on a working phone. Regulated under IT Act Section 66C, Telecom regulatory provisions, and BNS Section 319.",
+    "Trigger_Keywords": ["SIM card not working", "mobile network lost", "SIM replacement", "OTP not received", "mobile number ported", "SIM swap attack", "SIM cloned", "lost mobile signal suddenly", "OTP going elsewhere"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Criminal prosecution under IT Act Section 66C (imprisonment up to 3 years, fine up to ₹1,00,000) and BNS Section 319 (imprisonment up to 5 years).",
+    "Fraud_Category": "Identity Theft / Financial Fraud via Banking Channels"
+  },
+  {
+    "Parameter_ID": "RBI_DIGITAL_ARREST_GUIDELINE",
+    "Legal_Source": "RBI BE(A)WARE Booklet / RBI-MHA Joint Advisory 2024",
+    "Section_Number": "RBI/MHA Advisory — Digital Arrest Fraud",
+    "Definition": "Digital Arrest fraud — one of the fastest-growing and most damaging fraud types in India (₹2,000 crore in losses in 2024 alone). Fraudsters impersonate law enforcement officials (CBI, ED, Customs, Police, Interpol, RBI) via video/phone call, displaying fake uniforms, official-looking backgrounds, and forged arrest warrants. Victims are told they are under 'digital arrest' for alleged crimes (money laundering, drug trafficking, tax evasion, identity misuse) and must stay on call and transfer money immediately or face arrest. There is NO concept of 'digital arrest' in Indian law — it is entirely a fraud construct. Key rule from PM Modi's public advisory: any such contact must be reported immediately to Cybercrime Helpline 1930.",
+    "Trigger_Keywords": ["digital arrest", "you are under investigation", "your account linked to money laundering", "FIR registered against you", "ED has case against you", "Interpol notice issued", "you must transfer money now", "do not tell anyone", "stay on call", "warrant for your arrest"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Perpetrators liable under BNS Sections 204 (personation of public servant), 308(4) (extortion), 319 (cheating by personation), 318 (cheating), and IT Act Sections 66C/66D.",
+    "Fraud_Category": "Digital Cheating & Phishing / Identity Theft / Extortion"
+  },
+  {
+    "Parameter_ID": "RBI_KYC_FRAUD_GUIDELINE",
+    "Legal_Source": "RBI BE(A)WARE Booklet / RBI Consumer Education Guidelines",
+    "Section_Number": "RBI Guidelines — KYC & Aadhaar Fraud",
+    "Definition": "KYC fraud — fraudsters pose as bank/telecom/UIDAI/insurance officials claiming the victim's KYC is pending, expired, or required for compliance. Victims are tricked into sharing Aadhaar number, OTP received on Aadhaar-linked phone, PAN card, or downloading remote access apps (AnyDesk, TeamViewer, QuickSupport), enabling fraudsters to take complete control of devices and bank accounts. AEPS (Aadhaar Enabled Payment System) variant uses cloned biometric fingerprints for unauthorized withdrawals. RBI absolute rule: no bank, RBI, UIDAI, or government body will ever call asking for Aadhaar OTP.",
+    "Trigger_Keywords": ["KYC pending", "KYC update required", "Aadhaar OTP", "your account will be blocked", "KYC link click here", "verify Aadhaar", "share your OTP", "download AnyDesk", "install remote app", "PAN card required urgently"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Perpetrators liable under IT Act Sections 66C/66D and Aadhaar Act Section 29 (misuse of identity information); BNS Sections 318/319.",
+    "Fraud_Category": "Identity Theft / Financial Fraud via Banking Channels"
+  },
+  {
+    "Parameter_ID": "NCRP_SMISHING_CAT",
+    "Legal_Source": "NCRP Cyber Fraud Database — I4C / Ministry of Home Affairs (April 2026)",
+    "Section_Number": "NCRP Category 3 — Smishing (SMS Phishing)",
+    "Definition": "Cybercriminals send fraudulent text messages purporting to be from trusted sources (banks, TRAI, NPCI, delivery services, government bodies) containing malicious links designed to install malware on devices, capture credentials, or direct victims to phishing websites. Messages create urgency and exploit trust in known brands. Covered under IT Act Sections 66C and 66D. Reporting channel: Sanchar Saathi (Chakshu) by DoT for suspected fraud telecom communications.",
+    "Trigger_Keywords": ["SMS link", "click here to verify", "your package is on hold", "TRAI notice", "account deactivation", "free gift link", "suspicious SMS link", "bank SMS link", "delivery pending action", "KYC SMS link"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "IT Act Section 66C: imprisonment up to 3 years, fine up to ₹1,00,000; IT Act Section 66D: imprisonment up to 3 years, fine up to ₹1,00,000.",
+    "Fraud_Category": "Digital Cheating & Phishing"
+  },
+  {
+    "Parameter_ID": "NCRP_INVESTMENT_FRAUD_CAT",
+    "Legal_Source": "NCRP Cyber Fraud Database — I4C / Ministry of Home Affairs (April 2026)",
+    "Section_Number": "NCRP Category 7 — Investment/Trading App Fraud ('Pig Butchering')",
+    "Definition": "Fraudsters (often operating from overseas) contact victims via social media, WhatsApp, or Telegram with promises of high guaranteed returns through fake trading platforms, stock investment apps, or cryptocurrency schemes. Victims are made to invest escalating amounts; small initial 'profits' are shown to build trust ('pig fattening'). When victims attempt withdrawal, accounts are frozen or further fees demanded. All invested funds are ultimately siphoned. Also known as 'pig butchering scam' or 'algorithm manipulation fraud.' Legal sections: BNS Section 318(4) (cheating with property delivery) and SEBI Act violations.",
+    "Trigger_Keywords": ["guaranteed returns", "double your money", "trading app link", "invest now high profit", "crypto investment", "stock tips WhatsApp", "algorithm trading guaranteed", "join our investment group", "profit assured", "withdrawal blocked"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "BNS Section 318(4): imprisonment up to 7 years + fine; also liable under SEBI Act for unregistered investment advisory activities.",
+    "Fraud_Category": "Financial Fraud / Digital Cheating"
+  },
+  {
+    "Parameter_ID": "NCRP_APK_FRAUD_CAT",
+    "Legal_Source": "NCRP Cyber Fraud Database — I4C / Ministry of Home Affairs (April 2026)",
+    "Section_Number": "NCRP Category 15 — APK File Fraud / Malicious Mobile Application Fraud",
+    "Definition": "Fraudsters distribute malicious Android APK files via WhatsApp, SMS, or email, disguised as legitimate apps (wedding invitations, bank apps, government service apps, delivery tracking, income tax apps). Once installed outside official app stores, the malware gains unauthorized access to SMS messages (including OTPs), banking credentials, contacts, camera, and microphone. Remote access capability allows fraudsters to control the device and authorize transactions. Legal provisions: IT Act Sections 43 and 66.",
+    "Trigger_Keywords": ["install this app", "APK file download", "click to install", "download from link", "wedding invitation APK", "bank app update link", "government app download", "tax filing app SMS link", "delivery app install", "WhatsApp APK file"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "IT Act Section 66: imprisonment up to 3 years or fine up to ₹5,00,000 or both; Section 43: civil compensation liability.",
+    "Fraud_Category": "Digital Cheating & Phishing / Malware"
+  },
+  {
+    "Parameter_ID": "NCRP_BEC_FRAUD_CAT",
+    "Legal_Source": "NCRP Cyber Fraud Database — I4C / Ministry of Home Affairs (April 2026)",
+    "Section_Number": "NCRP Category 34 — Business Email Compromise (BEC)",
+    "Definition": "Sophisticated fraud targeting businesses where criminals impersonate company CEOs, CFOs, or trusted vendors via spoofed or compromised email accounts to instruct finance departments to authorize large fraudulent wire transfers or divulge sensitive financial/credential information. Spoofed email domains differ by 1-2 characters from genuine domains. High-value crime. Legal provisions: IT Act Section 66D (cheating by personation using computer resource) and BNS Section 318/319.",
+    "Trigger_Keywords": ["urgent wire transfer", "CEO requesting payment", "CFO instruction", "transfer funds immediately", "vendor invoice changed", "new bank account for payment", "urgent confidential transfer", "email from executive", "finance department email", "payment redirection"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "IT Act Section 66D: imprisonment up to 3 years + fine up to ₹1,00,000; BNS Section 318/319: imprisonment up to 5-7 years + fine.",
+    "Fraud_Category": "Digital Cheating & Phishing / Financial Fraud"
+  },
+  {
+    "Parameter_ID": "NCRP_IDENTITY_THEFT_CAT",
+    "Legal_Source": "NCRP Cyber Fraud Database — I4C / Ministry of Home Affairs (April 2026)",
+    "Section_Number": "NCRP Category 26 — Identity Theft / Impersonation",
+    "Definition": "Stealing another person's identity (name, photos, personal details, credentials) to: (1) create fake social media profiles to defraud contacts; (2) apply for loans or credit in victim's name; (3) conduct fraud while using the victim's identity; (4) damage victim's reputation. Includes cheating by personation using electronic communication. Legal provisions: IT Act Section 66C (identity theft) and BNS Section 319 (cheating by personation).",
+    "Trigger_Keywords": ["fake profile created", "someone using my identity", "account created with my photos", "identity misused", "credentials stolen", "profile impersonation", "fake account pretending to be me", "my details used fraudulently", "unauthorized loan in my name"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "IT Act Section 66C: imprisonment up to 3 years + fine up to ₹1,00,000; BNS Section 319: imprisonment up to 5 years or fine or both.",
+    "Fraud_Category": "Identity Theft / Digital Cheating"
+  },
+  {
+    "Parameter_ID": "NCRP_SPOOFING_CAT",
+    "Legal_Source": "NCRP Cyber Fraud Database — I4C / Ministry of Home Affairs (April 2026)",
+    "Section_Number": "NCRP Category 35 — Spoofing (Email / IP / Caller ID)",
+    "Definition": "Disguising the origin of communication to appear from a trusted source — email spoofing fakes sender addresses to appear from legitimate banks/govt bodies; caller ID spoofing makes calls appear to originate from legitimate local numbers including Indian banking helplines from international locations; IP spoofing hides attacker's true location. Enables phishing, vishing, smishing, BEC, and digital arrest scams. Legal provisions: IT Act Section 66D and Telecom Regulatory Framework (Chakshu/TRAI).",
+    "Trigger_Keywords": ["call from bank number", "email from official domain", "SMS from trusted sender", "caller ID appears genuine", "message from RBI number", "spoofed bank number", "caller claims bank", "SMS sender ID fake", "official-looking email", "familiar number calling"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "IT Act Section 66D: imprisonment up to 3 years + fine up to ₹1,00,000; Telecom violations handled by TRAI/DoT.",
+    "Fraud_Category": "Digital Cheating & Phishing"
+  },
+  {
+    "Parameter_ID": "ITA_SEC_67A",
+    "Legal_Source": "Information Technology Act, 2000",
+    "Section_Number": "Section 67A",
+    "Definition": "Publishing or transmitting material containing sexually explicit acts in electronic form. Fraudsters use morphed photos or secretly recorded video calls to blackmail victims into paying money (sextortion).",
+    "Trigger_Keywords": ["video call recording", "share your private photos", "morphed pictures", "will send to your family", "pay to delete video", "compromising video", "sextortion", "blackmail"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment up to 5 years and fine up to ₹10,00,000 for first conviction.",
+    "Fraud_Category": "Extortion / Cyber Obscenity"
+  },
+  {
+    "Parameter_ID": "NCRP_LOAN_APP_CAT",
+    "Legal_Source": "NCRP Cyber Fraud Database",
+    "Section_Number": "Instant Loan / Extortion",
+    "Definition": "Unregistered entities offering instant loans via mobile apps, but gaining full contact/gallery access. They extort victims by threatening to send abusive messages and morphed photos to the victim's contacts if arbitrary amounts are not paid.",
+    "Trigger_Keywords": ["instant loan approval", "loan app APK", "repay immediately or we call your contacts", "defaulter notice", "contact list hacked", "loan without CIBIL", "harassment recovery call"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Extortion (BNS 308), Cheating (BNS 318), IT Act 66E and 67A.",
+    "Fraud_Category": "Financial Fraud / Extortion"
+  },
+  {
+    "Parameter_ID": "NCRP_ELECTRICITY_FRAUD",
+    "Legal_Source": "NCRP Cyber Fraud Database",
+    "Section_Number": "Utility / Electricity Fraud",
+    "Definition": "Fraudsters send malicious SMS claiming electricity will be disconnected tonight by the power officer due to non-payment of the previous month's bill, instructing the user to call a provided number. Leads to remote access app installation.",
+    "Trigger_Keywords": ["power will be disconnected", "electricity office", "update your bill from previous month", "call the electricity officer", "power disconnect tonight", "bill not updated"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Cheating by Personation (BNS 319), IT Act 66D.",
+    "Fraud_Category": "Digital Cheating & Phishing"
+  },
+  {
+    "Parameter_ID": "NCRP_CUSTOMER_CARE_FRAUD",
+    "Legal_Source": "NCRP Cyber Fraud Database",
+    "Section_Number": "Fake Customer Care Toll-Free",
+    "Definition": "Fraudsters manipulate search engine results to place fake helpline numbers for banks, airlines, or e-commerce sites. Unsuspecting victims calling for support are guided to install remote access apps, leading to unauthorized bank debits.",
+    "Trigger_Keywords": ["customer care helpline", "refund support number", "dial this for reversal", "download screen share", "AnyDesk support", "helpdesk OTP"],
+    "Risk_Level": "Medium",
+    "Penalty_Brief": "Cheating by Personation (BNS 319), IT Act 66D.",
+    "Fraud_Category": "Digital Cheating & Phishing"
+  },
+  {
+    "Parameter_ID": "NCRP_COURIER_FRAUD",
+    "Legal_Source": "NCRP Cyber Fraud Database",
+    "Section_Number": "Courier / Customs Parcel Scam",
+    "Definition": "Victims are called by scammers posing as FedEx, BlueDart, or Customs officials, claiming a parcel in the victim's name destined for a foreign country has been intercepted containing MDMA drugs, fake passports, or illegal items. Combined with 'Digital Arrest' threats.",
+    "Trigger_Keywords": ["FedEx parcel seized", "customs drug interception", "illegal items in your courier", "parcel return fee", "narcotics department", "customs clearance fee", "your Aadhaar used for parcel"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Extortion (BNS 308), Personating public servant (BNS 204), Cheating (BNS 318).",
+    "Fraud_Category": "Digital Cheating / Extortion"
+  },
+  {
+    "Parameter_ID": "NCRP_MATRIMONIAL_FRAUD",
+    "Legal_Source": "NCRP Cyber Fraud Database",
+    "Section_Number": "Matrimonial / Dating Scam",
+    "Definition": "Scammers create fake profiles on matrimonial sites or dating apps, build a romantic relationship with the victim over months, claim they are sending an expensive gift from abroad, and orchestrate fake customs calls demanding clearance duty.",
+    "Trigger_Keywords": ["sending gift from London", "customs clearance for gift", "stuck at airport", "matrimonial profile", "need money for medical emergency", "transfer to customs account"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Cheating (BNS 318), Identity Theft (IT Act 66C).",
+    "Fraud_Category": "Digital Cheating"
+  },
+  {
+    "Parameter_ID": "NCRP_TASK_FRAUD",
+    "Legal_Source": "NCRP Cyber Fraud Database",
+    "Section_Number": "Work-From-Home / Task Scam",
+    "Definition": "Victims are contacted via WhatsApp/Telegram with offers for part-time jobs (e.g., liking YouTube videos or Google reviews). Small payouts are given initially to build trust, before victims are added to a 'premium task group' that requires forced investments to release 'earnings'.",
+    "Trigger_Keywords": ["like YouTube videos", "Google maps review job", "part time work from home", "prepaid task", "merchant task", "deposit to unlock earnings", "telegram task group", "daily income 3000"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Cheating (BNS 318), IT Act 66D.",
+    "Fraud_Category": "Financial Fraud / Advance Fee Scam"
+  },
+  {
+    "Parameter_ID": "ITA_SEC_66E",
+    "Legal_Source": "Information Technology Act, 2000",
+    "Section_Number": "Section 66E",
+    "Definition": "Intentionally or knowingly capturing, publishing or transmitting the image of a private area of any person without their consent, violating their privacy.",
+    "Trigger_Keywords": ["captured private photos", "hidden camera", "non-consensual image sharing", "voyeurism", "privacy violation", "recording without permission"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment up to 3 years or fine up to ₹2,00,000 or both.",
+    "Fraud_Category": "Privacy Violation / Cyber Crime"
+  },
+  {
+    "Parameter_ID": "BUDS_ACT_2019",
+    "Legal_Source": "Banning of Unregulated Deposit Schemes Act, 2019",
+    "Section_Number": "Sections 3 & 4",
+    "Definition": "Prohibits all unregulated deposit schemes. Promoters of Ponzi and multi-level marketing (MLM) schemes promising guaranteed astronomical returns from fake crypto ventures or trading pools are prosecuted under this Act.",
+    "Trigger_Keywords": ["guaranteed 10% daily return", "multi level marketing", "refer 3 friends chain", "unregistered trading pool", "crypto deposit scheme", "ponzi payout", "high yield investment program"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Imprisonment from 1 to 10 years and massive fines.",
+    "Fraud_Category": "Financial Fraud / Ponzi Scheme"
+  },
+  {
+    "Parameter_ID": "RBI_REWARD_POINT_FRAUD",
+    "Legal_Source": "RBI Consumer Protection Guidelines",
+    "Section_Number": "Credit Card Reward Points Fraud",
+    "Definition": "Fraudsters send messages claiming the victim has thousands of unredeemed credit card reward points that will expire today. A provided link leads to a phishing site asking for card details and CVV to 'redeem' the points.",
+    "Trigger_Keywords": ["reward points expiring", "redeem credit card points", "HDFC reward points pending", "click to claim points", "cashback points", "convert points to cash"],
+    "Risk_Level": "High",
+    "Penalty_Brief": "Cheating (BNS 318), IT Act 66C and 66D.",
+    "Fraud_Category": "Digital Cheating & Phishing"
+  }
+]

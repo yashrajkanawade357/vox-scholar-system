@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# --- Virtual Environment ---
+venv/
+.venv/
+env/
+
+# --- ChromaDB Persistent Storage ---
+chroma_db/
+
+# --- Whisper Model Cache ---
+*.pt
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Uploaded Audio Files ---
+uploads/
+
+# --- Environment Variables ---
+.env

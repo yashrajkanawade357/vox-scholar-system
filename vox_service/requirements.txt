@@ -1,0 +1,33 @@
+# VOX Service — Project BigDaddy
+# Anti-Vishing (Phone Scam Detection) System
+# Python 3.10+ | 100% Local & Offline
+
+# Enforce PyTorch CPU-only installation to avoid multi-gigabyte CUDA downloads
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Deep learning framework backend (CPU version only) for Whisper and embeddings
+torch==2.5.1
+
+# High-performance asynchronous web framework for our API endpoints
+fastapi==0.115.0
+
+# ASGI server to run the FastAPI application on a specific port
+uvicorn[standard]==0.32.0
+
+# Allows FastAPI to parse audio file uploads in multipart/form-data requests
+python-multipart==0.0.12
+
+# Local vector database to store and retrieve legal document embeddings
+chromadb==0.5.23
+
+# Generates contextual sentence embeddings for our RAG text chunks
+sentence-transformers==3.3.1
+
+# Local offline transcription of audio files into text
+openai-whisper==20240930
+
+# Efficient extraction and parsing of raw text from Indian legal PDF documents
+PyMuPDF==1.25.1
+
+# Synchronous HTTP library for sending system prompts to the local Ollama daemon
+requests==2.32.3
